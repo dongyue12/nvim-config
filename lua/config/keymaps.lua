@@ -17,6 +17,7 @@ map("n", "<C-z>", "u", opts)
 map("i", "<C-z>", "<Esc>u", opts)
 map("v", "<C-c>", "y", opts)
 map("v", "<C-x>", "d", opts)
+map("i", "<C-v>", "<C-r>+", opts)
 
 -- Shift 选择（按住 Shift+方向键选中，松开后按方向键取消选中）
 map({ "n", "i" }, "<S-Left>", "<Esc>v<Left>", opts)

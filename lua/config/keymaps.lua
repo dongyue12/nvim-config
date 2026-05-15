@@ -4,12 +4,13 @@ local opts = { noremap = true, silent = true }
 map("n", "<leader>w", "<cmd>w<CR>", opts)
 map("n", "<leader>q", "<cmd>q<CR>", opts)
 map("n", "<leader>Q", "<cmd>qa!<CR>", opts)
-map("n", "<leader>w", "<cmd>w<CR>", opts)
-map("n", "<leader>q", "<cmd>q<CR>", opts)
-map("n", "<leader>Q", "<cmd>qa!<CR>", opts)
 map("n", "<Esc>", "<cmd>nohlsearch<CR>", opts)
 map("n", "<leader>pv", vim.cmd.Ex, opts)
 map("n", "<leader>v", "V", opts)
+
+-- 选中下一个相同词（按一次选中，按 . 重复选下一个）
+map("n", "<leader>d", "*gn", opts)
+map("v", "<leader>d", "<Esc>*gn", opts)
 
 -- 类 IDE 快捷键
 map({ "n", "i" }, "<C-a>", "<Esc>ggVG", opts)

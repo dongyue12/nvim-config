@@ -21,4 +21,4 @@ opt.splitright = true
 opt.splitbelow = true
 opt.timeoutlen = 300
 opt.undofile = true
-opt.guicursor = "n-v-c:block,i-ci:ver25"
+opt.guicursor = "a:ver25"

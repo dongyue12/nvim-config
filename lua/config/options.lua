@@ -21,4 +21,3 @@ opt.splitright = true
 opt.splitbelow = true
 opt.timeoutlen = 300
 opt.undofile = true
-opt.guicursor = "a:ver50"
